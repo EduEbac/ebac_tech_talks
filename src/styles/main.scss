@@ -1,4 +1,7 @@
 @use 'hero';
+@use 'components/infosbar';
+@use 'components/buttons';
+
 
 * {
     margin: 0;
@@ -7,6 +10,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #fff;
+    list-style: none;
 }
 
 .container {
